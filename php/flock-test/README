@@ -1,0 +1,19 @@
+What it is?
+-----------
+
+How PHP's flock() should be used? The non-blocking way.
+
+The script should try to obtain lock on file several times and if failed
+just quit. It should not block waiting for lock.
+
+How to use it?
+--------------
+
+Lock file with lock_file.php:
+
+$ php lock_file.php
+
+Than in other terminal run the actual test:
+
+$ php loop_while_locking_test.php
+

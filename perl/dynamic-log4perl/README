@@ -1,0 +1,22 @@
+What does it do?
+----------------
+
+The purpose is to create a perl logger that can log to different files
+depending on some in-file parameters.
+
+After running this example you should find multiple log files in log
+directory. The test script iterates through values and logs them into
+file, so the myriad of files will have different names and a single line
+in them. All this is intended.
+
+Note to self: in log4perl.conf there is some custom level defs - can be
+used some time.
+
+How to run it?
+--------------
+
+$ mkdir log
+$ perl main.pl
+
+And remember to have log4perl installed in your system, 'cause it does
+the main work here :)
