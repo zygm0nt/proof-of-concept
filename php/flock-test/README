@@ -17,3 +17,8 @@ Than in other terminal run the actual test:
 
 $ php loop_while_locking_test.php
 
+or (if you want to see LOCK_SH behavior)
+
+$ php loop_while_locking_test.php
+
+
